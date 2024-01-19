@@ -1,4 +1,4 @@
-package edu.fra.uas.hello;
+package edu.fra.uas.hello.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ public class HelloWorldController {
     @RequestMapping(value = "hello", method=RequestMethod.GET)
     @ResponseBody
     public String getHelloWorld() {
-        return "<h1>Hello World Spring Boot!>";
+        return "<h1>Hello World Spring Boot!</h1>";
     }
     
 
